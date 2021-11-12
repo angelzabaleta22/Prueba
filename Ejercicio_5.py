@@ -1,0 +1,17 @@
+print("¡Hola! Bienvenido al ejercicio No. 5")
+monto = int(input("Digite el monto de la compra: "))
+if monto > int (200000):
+   propio = int (monto * 0.6)
+   prestamo = int (monto*0.2)
+   credito_fabr = int (monto*0.2)
+   interes = int (credito_fabr*0.19)
+   monto_total = int (propio+prestamo+credito_fabr+interes)
+   print(f"\nLa inversion de la empresa es: ${propio}. \nPréstamo al banco: ${prestamo}. \nCrédito solicitado al fabricante: ${credito_fabr}. \nIntereses por crédito: ${interes}. \nEl monto total de la compra es: ${monto_total}")
+else:
+    monto <= int(200000)
+    propio = int (monto * 0.8)
+    credito_fabr = int (monto*0.2)
+    interes = int (credito_fabr*0.19)
+    monto_total = int (propio+credito_fabr+interes)
+    print(f"\nLa inversion de la empresa es: ${propio}. \nCrédito solicitado al fabricante: ${credito_fabr}. \nIntereses por crédito: ${interes}. \nEl monto total de la compra es: ${monto_total}")
+print("☻")
